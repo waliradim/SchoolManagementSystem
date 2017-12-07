@@ -1,7 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Shakil
- * Date: 07-12-17
- * Time: 14.50
- */
+@extends('AliensPanel.index.index')
