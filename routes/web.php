@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/','AliensController@index');
-    
+Route::get('/AliensPanel','AliensController@index');
+
