@@ -8,6 +8,43 @@
     <script src="../../../../public/AliensPanel/js/bootstrap.js"></script>
 </head>
 <body>
-<div class="col-lg-2"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="">
+
+            @include('AliensPanel.header.header')
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div>
+            @include('AliensPanel.menuBar.menubar')
+        </div>
+        <div class="">
+            @include('AliensPanel.mainContent.mainContent')
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="">
+            @include('AliensPanel.footer.footer')
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class=""></div>
+    </div>
+</div>
 </body>
 </html>
