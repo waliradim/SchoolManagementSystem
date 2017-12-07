@@ -5,7 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" href="{{asset('../../../../public/AliensPanel/css/AliensPanel.css')}}">
     <link rel="stylesheet" href="{{asset('../../../../public/AliensPanel/css/bootstrap.css')}}">
-    <script src="../../../../public/AliensPanel/js/bootstrap.js"></script>
+    <script src="{{asset('../../../../public/AliensPanel/js/bootstrap.js')}}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -24,7 +25,7 @@
             @include('AliensPanel.menuBar.menubar')
         </div>
         <div class="">
-            @include('AliensPanel.mainContent.mainContent')
+            @yield('mainContent')
         </div>
     </div>
 </div>
